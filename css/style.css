@@ -35,8 +35,17 @@ html {
 #why, 
 #reviews, 
 #contact {
-  margin-top: 100px; /* Adjust this value if navbar height changes */
+  margin-top: 100px;
 }
+
+
+#about {
+  background-image: url('/img/bg-shortcake.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 .brand {
   display: flex;
@@ -47,14 +56,15 @@ html {
 }
 
 .logo-mark {
-  width: 46px;
-  height: 46px;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(229, 140, 167, 0.12);
-  background-image: url('pngtree-red-velvet-cake-png-image_13753024.png');
-  background-size: contain;
-  background-repeat: no-repeat;
+  width: 60px; /* slightly larger, adjust if needed */
+  height: 60px;
+  border-radius: 50%;
+  background-image: url('../img/Copilot_20251020_191855-removebg-preview (1).png');
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 6px 12px rgba(229, 140, 167, 0.15);
+  flex-shrink: 0;
 }
 
 .brand-text {
@@ -180,6 +190,9 @@ html {
 .hero-image-wrap:hover .hero-image {
   transform: translateY(-6px);
 }
+
+
+
 
 /* ABOUT */
 .about-inner {
@@ -332,6 +345,14 @@ html {
 }
 
 /* REVIEWS */
+#reviews {
+  background-image: url('/img/bg-shortcake.jp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .review-cards {
   display: flex;
   gap: 12px;
